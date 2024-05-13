@@ -1,0 +1,3 @@
+[workspace]
+members = ["utxo-scanner", "utxo-scanner-cli"]
+resolver = "2"

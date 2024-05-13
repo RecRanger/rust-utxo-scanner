@@ -6,14 +6,14 @@
 //
 // use utxo_scanner
 //
-// //Scan for all UTXOs
+// // Scan for all UTXOs
 // let stats = utxo_scanner::scan("/path/to/.bitcoin", true, Some("/path/to/desired.csv"));
 //
 // println!("Total Txs: {}", stats.count);
 // println!("Total Amount: {}", stats.amount);
 // println!("Total Secs: {}", stats.total_secs);
 //
-// Remove RocksDB and start fresh
+// // Remove RocksDB and start fresh
 // utxo_scanner::reset_rocksdb
 //
 #![crate_type = "lib"]
