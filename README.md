@@ -5,7 +5,13 @@ Scans the chainstate LevelDB from Bitcoin Core, extracts all UTXOs, and
 places them in RocksDB, a CSV file, or both.
 
 ## Usage - CLI
+```bash
+cargo install utxo-scanner-cli
 
+utxo-scanner-cli --bitcoin-path /path/to/.bitcoin --csv-path ./output.csv
+
+utxo-scanner-cli --bitcoin-path /path/to/.bitcoin --csv-path ./output.csv --include-mempool true --testnet true
+```
 
 ## Usage - Library
 

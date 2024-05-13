@@ -6,7 +6,6 @@ autotests = false
 description = "Scans the chainstate LevelDB database of Bitcoin Core and extracts all UTXOs into either a RocksDB database, CSV file, or both."
 readme = "README.md"
 license = "MIT"
-license-file = "LICENSE"
 repository = "https://github.com/mdizak/rust-utxo-scanner"
 edition = "2021"
 
